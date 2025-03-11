@@ -1,0 +1,2 @@
+docker build -t smpledocker ./SampleDockerApp
+docker run -p 12345:8080 -p 12346:8081 smpledocker 
